@@ -14,7 +14,19 @@ module.exports = {
         "gd2-blue2":'#0E7490',
         "gd3-blue3":'#0284C7',
         "gd11-blue1":'#a5f3fc',
-        "gd22-blue2":'#a5f3fc'
+        "gd22-blue2":'#a5f3fc',
+        'ft-grey':'#52525B',
+        'footer-grey':' #F4F4F5',
+        'plan-color':'#27272A',
+        'pri-color1':'#06B6D4',
+        'pri-color2':'#0E7490',
+        'pri-color3':'#0284C7',
+        'cycan':'#0E7490',
+        'border-grey':'#D4D4D8',
+        'lit-grey':'#52525B'
+      },
+      fontFamily:{
+        'sans': ['Mulish', 'system-ui']
       }
     },
   },
