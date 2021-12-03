@@ -33,6 +33,7 @@ const Overview = () => {
           name="Get Started"
           width="w-40 text-lg"
           height="h-12"
+          hover="text-lt-blue"
         />
         <Button
           name="Learn more"
@@ -110,10 +111,11 @@ const Overview = () => {
               name="Learn more"
               width="w-36 text-base"
               height="h-11"
+              hover="text-lt-blue"
             />
             <div className="flex gap-6">
             <button><img alt="arr-btn" src="./images/left-arrow.png"/></button>
-            <button className="rounded-full bg-sl-color p-3" ><img alt="arr-btn" src="./images/right-arrow.png"/></button>
+            <button className="rounded-full bg-sl-color hover:bg-ft-blue p-3" ><img alt="arr-btn" src="./images/right-arrow.png"/></button>
             </div>
             </div>
           </div>
@@ -191,6 +193,7 @@ const Overview = () => {
           height="h-12 font-normal text-lg"
           color={"bg-gradient-to-b from-gd-blue1 via-gd-blue2  to-gd-blue3 text-lg"}
           textColor="text-white"
+          hover="text-lt-blue"
         />
       </div>
     </div>
