@@ -1,13 +1,18 @@
 import Case from "../components/Case";
+import Hamburger from "../components/Hamburger";
 
 const CaseStudies = () => {
   return (
+    <>
+    <div style={{zIndex:'-50',height:'1000px'}} className="absolute top-0 w-full bg-grd-2 filter blur-3xl opacity-30"></div>
+
+    <Hamburger/>
     <div>
       <section className="flex flex-col gap-24">
         <div className="mt-24 flex flex-col items-center gap-12 mt">
           <div className="flex flex-col gap-3">
-            <h1 className="text-8xl text-center font-black">CASE STUDIES</h1>
-            <p className="max-w-3xl text-xl text-center">
+            <h1 className="text-8xl text-h-color text-center font-black">CASE STUDIES</h1>
+            <p className="max-w-3xl text-xl font-normal text-lit-grey text-center">
               See how leading organizations and freelance developers have used
               Webber to tackle different use cases and get ahead of the
               competition
@@ -16,7 +21,7 @@ const CaseStudies = () => {
           <div className="flex border items-center justify-evenly border-border-grey rounded-sm w-96 h-16 text-base">
             <label className="text-ft-grey">
               Region
-              <select className="w-10">
+              <select className="w-10 bg-transparent font-medium text-lit-grey">
                 <option>All</option>
                 <option>Alpha</option>
                 <option>Beta</option>
@@ -24,7 +29,7 @@ const CaseStudies = () => {
             </label>
             <label className="text-ft-grey">
               Industry
-              <select className="w-10">
+              <select className="w-10 bg-transparent font-medium text-lit-grey">
                 <option>All</option>
                 <option>Alpha</option>
                 <option>Beta</option>
@@ -32,7 +37,7 @@ const CaseStudies = () => {
             </label>
             <label className="text-ft-grey">
               Type
-              <select className="w-10">
+              <select className="w-10 font-medium bg-transparent text-lit-grey">
                 <option>All</option>
                 <option>Alpha</option>
                 <option>Beta</option>
@@ -87,6 +92,7 @@ const CaseStudies = () => {
       <br/>
       <br/>
     </div>
+    </>
   );
 };
 

@@ -23,11 +23,14 @@ module.exports = {
         'pri-color3':'#0284C7',
         'cycan':'#0E7490',
         'border-grey':'#D4D4D8',
-        'lit-grey':'#52525B'
+        'lit-grey':'#52525B',
+        'bor-color':'#E4E4E7',
+        'h-color':' #1F2937',
+        'nav-color':'#18181B',
+        'sl-color':'#0891B2',
+        'grd-1':'#a5f3fc',
+        'grd-2':'rgba(165, 243, 252, 0.5)',
       },
-      fontFamily:{
-        'sans': ['Mulish', 'system-ui']
-      }
     },
   },
   variants: {

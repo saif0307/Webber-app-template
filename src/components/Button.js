@@ -7,9 +7,9 @@ const Button = (props) => {
           // color: props.textColor
         }
       }
-      className={`box-border ${props.width || "w-20"} ${
+      className={`box-border font-normal ${props.width || "w-20"} ${
         props.height || "h-10"
-      }  text-sm rounded-sm ${props.textColor} ${props.color} hover:${props.hover}`}
+        } rounded-sm ${props.textColor} ${props.color} hover:${props.hover}`}
     >
       {props.name}
     </button>
